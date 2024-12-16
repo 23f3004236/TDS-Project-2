@@ -1,17 +1,16 @@
-# /// script
-# requires-python = ">=3.11"
-# dependencies = [
-#   "httpx",
-#   "pandas",
-#   "matplotlib",
-#   "seaborn",
-#   "openai",
-#   "chardet",
-#   "scipy",
-#   "numpy",
-#   "joypy",
-# ]
-# ///
+# Script Metadata
+# Requires Python >=3.11
+# Dependencies:
+#   - httpx
+#   - pandas
+#   - matplotlib
+#   - seaborn
+#   - openai
+#   - chardet
+#   - scipy
+#   - numpy
+#   - joypy
+
 
 
 import os
