@@ -12,12 +12,12 @@
 #   - joypy
 
 '''
-STEP 1: Import required libraries and install missing ones.
-STEP 2: Load the dataset, detect encoding, and handle errors during loading.
+STEP 1: Import required libraries.
+STEP 2: Load the dataset and detect encoding.
 STEP 3: Perform preliminary analysis: missing values, correlations, and outliers.
 STEP 4: Generate dataset preview and text summary.
 STEP 5: Use ChatGPT to suggest graph types.
-STEP 6: Create graphs (scatterplots, bar plots, histograms, pie charts) and save them as PNG files.
+STEP 6: Create graphs (scatterplots, bar plots, histograms, pie charts) as PNG files.
 STEP 7: Use ChatGPT to generate a README.md.
 STEP 8: Save all outputs in a designated folder.
 '''    
