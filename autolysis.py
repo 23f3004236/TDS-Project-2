@@ -12,6 +12,9 @@
 #   - joypy
 
 try:
+    import os
+    import sys
+    import pandas as pd
     import matplotlib
     print("Matplotlib imported successfully.")
 except ModuleNotFoundError:
@@ -21,9 +24,7 @@ except ModuleNotFoundError:
     import matplotlib
     print("Matplotlib installation successful!")
 
-import os
-import sys
-import pandas as pd
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import openai
