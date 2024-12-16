@@ -26,7 +26,7 @@ from scipy.stats import zscore
 import numpy as np
 from joypy import joyplot
 import tkinter
-
+matplotlib.use('Agg')
 
 # Set OpenAI API Token from the environment variable
 openai.api_key = os.getenv("AIPROXY_TOKEN")
