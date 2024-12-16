@@ -9,6 +9,7 @@
 #   "scipy",
 #   "numpy",
 #   "joypy",
+#   "tkinter"
 # ]
 # ///
 
@@ -24,6 +25,7 @@ import time
 from scipy.stats import zscore
 import numpy as np
 from joypy import joyplot
+import tkinter
 
 
 # Set OpenAI API Token from the environment variable
