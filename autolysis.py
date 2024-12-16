@@ -25,7 +25,7 @@ import time
 from scipy.stats import zscore
 import numpy as np
 from joypy import joyplot
-import tkinter
+#import tkinter
 matplotlib.use('Agg')
 
 # Set OpenAI API Token from the environment variable
