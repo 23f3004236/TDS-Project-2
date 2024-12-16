@@ -11,6 +11,7 @@
 #   - numpy
 #   - joypy
 
+
 try:
     import os
     import sys
@@ -24,7 +25,16 @@ except ModuleNotFoundError:
     import matplotlib
     print("Matplotlib installation successful!")
 
-
+'''
+STEP 1: Import required libraries and install missing ones.
+STEP 2: Load the dataset, detect encoding, and handle errors during loading.
+STEP 3: Perform preliminary analysis to calculate missing values, correlations, and outliers.
+STEP 4: Generate dataset preview and text summary of the analysis.
+STEP 5: Use ChatGPT to suggest graph types based on the dataset.
+STEP 6: Create graphs (scatterplots, bar plots, histograms, pie charts) and save them as PNG files.
+STEP 7: Use ChatGPT to generate a README.md summarizing the analysis, visualizations, and insights.
+STEP 8: Save all outputs (graphs and README) in a designated folder.
+'''    
 import matplotlib.pyplot as plt
 import seaborn as sns
 import openai
