@@ -8,7 +8,7 @@
 #   "chardet",
 #   "scipy",
 #   "numpy",
-#   "joypy"
+#   "joypy",
 # ]
 # ///
 
