@@ -1,6 +1,7 @@
-# Script Metadata
+# Script Information
 # Requires Python >=3.11
 # Dependencies:
+#   - uv
 #   - httpx
 #   - pandas
 #   - matplotlib
@@ -34,6 +35,14 @@ except ModuleNotFoundError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "matplotlib"])
     import matplotlib
     print("Matplotlib installation successful!")
+
+# Ensure `uv` library is installed
+try:
+    import uv
+except ImportError:
+    print("`uv` library not found. Installing it now...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "uv"])
+    import uv
 
 import matplotlib.pyplot as plt
 import seaborn as sns
