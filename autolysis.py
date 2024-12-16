@@ -11,7 +11,15 @@
 #   - numpy
 #   - joypy
 
-
+try:
+    import matplotlib
+    print("Matplotlib imported successfully.")
+except ModuleNotFoundError:
+    print("Matplotlib is not installed. Installing now...")
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "matplotlib"])
+    import matplotlib
+    print("Matplotlib installation successful!")
 
 import os
 import sys
